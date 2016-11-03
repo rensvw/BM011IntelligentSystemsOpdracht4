@@ -1,0 +1,16 @@
+{
+  "name": "languagedetector",
+  "version": "1.0.0",
+  "description": "Detects the language of a given string!",
+  "main": "train.js",
+  "scripts": {
+    "train": "./train.js",
+    "detect": "./detect.js"
+  },
+  "author": "Rens van Woudenberg & Mike van Donselaar",
+  "license": "ISC",
+  "dependencies":{
+    "glob":"^7.0.3",
+    "performance-now":"^0.2.0"
+  }
+}
